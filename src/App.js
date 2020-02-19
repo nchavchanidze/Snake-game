@@ -18,7 +18,8 @@ const initialState = {
   snakeDots: [
     [0, 0],
     [2, 0]
-  ]
+  ],
+  count: 0
 }
 
 class App extends Component {
@@ -108,7 +109,14 @@ class App extends Component {
       })
       this.enlargeSnake();
       this.increaseSpeed();
+      this.increment();
     }
+  }
+
+  increment() {
+    this.setState({
+      count: this.state.count + 1
+    })
   }
 
   enlargeSnake() {
@@ -128,7 +136,7 @@ class App extends Component {
   }
 
   onGameOver() {
-    alert(`Game OVer. Snake Length is ${this.state.snakeDots.length}`);
+    alert(`Game Over. 💀 You Scored ${this.state.snakeDots.length - 2} 🍎`);
     this.setState(initialState)
   }
 
@@ -137,6 +145,7 @@ class App extends Component {
       <div className="game-area">
         <Snake snakeDots={this.state.snakeDots} />
         <Food dot={this.state.food} />
+        <h1 className="counter">🍎: {this.state.count}</h1>
       </div>
     );
   }
