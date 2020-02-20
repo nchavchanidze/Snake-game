@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "778a9f2fe95d0ef76a8b2f530a5c7548",
+    "revision": "43b4b2cd907187da1902308bc47d3538",
     "url": "/Snake-game/index.html"
   },
   {
-    "revision": "5be738bc947e5171d94a",
-    "url": "/Snake-game/static/css/main.e43fc0ae.chunk.css"
+    "revision": "5dd52804ea566847d18f",
+    "url": "/Snake-game/static/css/main.c893e38a.chunk.css"
   },
   {
     "revision": "b49a5bd460226bce9ed4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Snake-game/static/js/2.42c198cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5be738bc947e5171d94a",
+    "revision": "5dd52804ea566847d18f",
     "url": "/Snake-game/static/js/main.7ac24bd3.chunk.js"
   },
   {
@@ -26,9 +26,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4f48eb43b419c15fe899ae24949b39c",
     "url": "/Snake-game/static/media/apple.b4f48eb4.png"
-  },
-  {
-    "revision": "c8986530930d71d31772b6c24718af99",
-    "url": "/Snake-game/static/media/body-back.c8986530.png"
   }
 ]);
