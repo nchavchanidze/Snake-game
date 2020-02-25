@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43b4b2cd907187da1902308bc47d3538",
+    "revision": "c17631882f3b7706f2a0fe6944381965",
     "url": "/Snake-game/index.html"
   },
   {
-    "revision": "5dd52804ea566847d18f",
-    "url": "/Snake-game/static/css/main.c893e38a.chunk.css"
+    "revision": "e5e3046db498ce5a4e6f",
+    "url": "/Snake-game/static/css/main.423ba2da.chunk.css"
   },
   {
     "revision": "b49a5bd460226bce9ed4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Snake-game/static/js/2.42c198cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5dd52804ea566847d18f",
-    "url": "/Snake-game/static/js/main.7ac24bd3.chunk.js"
+    "revision": "e5e3046db498ce5a4e6f",
+    "url": "/Snake-game/static/js/main.646ac9c9.chunk.js"
   },
   {
     "revision": "e7ed46d684936ab96140",
@@ -26,5 +26,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4f48eb43b419c15fe899ae24949b39c",
     "url": "/Snake-game/static/media/apple.b4f48eb4.png"
+  },
+  {
+    "revision": "9b5462bd2c041bc7c4985b95ad5a19bc",
+    "url": "/Snake-game/static/media/head.9b5462bd.png"
   }
 ]);
